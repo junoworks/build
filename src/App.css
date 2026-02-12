@@ -177,6 +177,11 @@ main {
   background: rgba(255, 254, 251, 0.9);
 }
 
+.button-secondary:hover {
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 10px 18px rgba(58, 57, 49, 0.12);
+}
+
 .trust-line {
   margin: 1.35rem 0 0;
   color: rgba(36, 35, 30, 0.72);
