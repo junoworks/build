@@ -1,13 +1,13 @@
 :root {
-  font-family: "Trebuchet MS", "Gill Sans", "Avenir Next", "Segoe UI", sans-serif;
+  font-family: "Avenir Next", "Trebuchet MS", "Segoe UI", sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  --page-background: #f7f1e8;
-  --text-primary: #23211d;
-  --text-secondary: #4c463d;
-  --edge: rgba(40, 38, 34, 0.15);
-  color: var(--text-primary);
-  background: var(--page-background);
+  --page-bg: #eef2fa;
+  --ink: #131a2f;
+  --muted: #49536b;
+  --line: rgba(19, 26, 47, 0.24);
+  color: var(--ink);
+  background: var(--page-bg);
   text-rendering: optimizeLegibility;
   font-synthesis: none;
   -webkit-font-smoothing: antialiased;
@@ -25,9 +25,9 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background:
-    radial-gradient(circle at 15% 10%, rgba(243, 199, 152, 0.35), transparent 42%),
-    radial-gradient(circle at 85% 90%, rgba(130, 188, 184, 0.35), transparent 40%),
-    var(--page-background);
+    radial-gradient(circle at 8% 8%, rgba(14, 76, 255, 0.1), transparent 34%),
+    radial-gradient(circle at 96% 92%, rgba(255, 193, 68, 0.16), transparent 32%),
+    var(--page-bg);
 }
 
 #root {
@@ -41,7 +41,7 @@ a {
 
 a:focus-visible,
 button:focus-visible {
-  outline: 2px solid #1f4f4c;
+  outline: 2px solid #0f4dff;
   outline-offset: 2px;
 }
 
